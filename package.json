@@ -1,0 +1,20 @@
+{
+  "name": "xrpl-sender",
+  "version": "1.0.0",
+  "description": "A simple library to send XRP via XRPL testnet.",
+  "main": "index.js",
+  "keywords": ["xrpl", "xrp", "blockchain", "testnet"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "xrpl": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satwi8/xrpl-sender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Satwi8/xrpl-sender/issues"
+  },
+  "homepage": "https://github.com/Satwi8/xrpl-sender#readme"
+}
