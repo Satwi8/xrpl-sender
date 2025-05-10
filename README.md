@@ -1,23 +1,21 @@
-# xrpl-sender
+# 📦 xrpl-sender
 
-A simple library to send XRP via XRPL testnet. Ideal for testing, demos, or blockchain-based app development.
+A lightweight Node.js module to send XRP from an XRPL wallet using a seed. Built for testnet and mainnet transactions with validation and balance checking.
 
-## Installation
+---
+
+### ✨ Features
+
+- ✅ Validate XRP classic address
+- 💸 Check wallet balance before sending
+- 🔐 Load wallet seed from `.env`
+- 🔁 Use any XRPL node (testnet/mainnet/custom)
+- 🧪 Tested with Jest (basic unit tests)
+- 📦 Publishable to NPM
+
+---
+
+### 🚀 Installation
 
 ```bash
 npm install xrpl-sender
-
-USAGE
-
-const { sendXrp } = require("xrpl-sender");
-
-sendXrp("rpZrQpLbg1nfRVTu3BCPb6oT1vUKn11kab", 50)
-  .then(result => {
-    console.log("✅ Transaction successful:", result);
-  })
-  .catch(err => {
-    console.error("❌ Error:", err.message);
-  });
-
-License
-MIT License © 2025 Satwic787
